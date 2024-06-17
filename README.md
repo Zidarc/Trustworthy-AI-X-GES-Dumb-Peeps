@@ -66,4 +66,11 @@ This arrangement ensures that both parties can access broader datasets while mai
 2. CTR Prediction machine learning code in a Python package/script.
 3. 3-5 page presentation slides, not including index and references.
 
+## Team Name: Dumb Peeps
+
+- **Ali Hussain**
+- **Abbad Shahabi**
+- **Ameen Abbasi**
+
+
 ---
