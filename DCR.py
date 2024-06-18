@@ -55,7 +55,7 @@ data_idx = 0
 for string in strings_set:
     print(string)
     
-    real_file = f'C:/Users/Namjoon Suh/Desktop/Tabular/Real-data/{string}.csv' 
+    real_file = f'C:/Users/Namjoon Suh/Desktop/Tabular/Real-data/{string}.csv' #Change file path 
     real_df = pd.read_csv(real_file)
     
     model_idx = 0
@@ -65,7 +65,7 @@ for string in strings_set:
         empty_mean = []
 
         for i in range(1,11):
-            syn_file = f'C:/Users/Namjoon Suh/Desktop/Tabular/Synthetic-data/{model}/{string}/AutoDiff_{string}{i}.csv'
+            syn_file = f'C:/Users/Namjoon Suh/Desktop/Tabular/Synthetic-data/{model}/{string}/AutoDiff_{string}{i}.csv' #change file path
         
             syn_df = pd.read_csv(syn_file)
             Min_L2_Dist = distance_cloest_record(real_df, syn_df)
